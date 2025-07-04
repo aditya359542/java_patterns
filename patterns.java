@@ -86,6 +86,37 @@ public class patterns {
         // }
 
 
+        // Question4
+
+//        * * * * *
+//        * * * *
+//        * * *
+//        * *
+//        *
+
+
+//        System.out.println("lenght ??");
+//        int length = sc.nextInt();
+//
+//        for (int i = length ; i >= 1 ; i--){
+//            for (int j = i ; j >= 1 ; j--){
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
