@@ -16,14 +16,14 @@ public class patterns {
 // * * * * *
 
 
-        int number = sc.nextInt();
-        int time = sc.nextInt();
-        for (int i = 1 ; i <= number; i++){
-            for (int j=1 ; j<=time ; j++){
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+//        int number = sc.nextInt();
+//        int time = sc.nextInt();
+//        for (int i = 1 ; i <= number; i++){
+//            for (int j=1 ; j<=time ; j++){
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
 
 
 
@@ -34,7 +34,39 @@ public class patterns {
 
 // Question2
 
+// * * * * *
+// *       *
+// *       *
+// *       *
+// * * * * *
 
+        // System.out.println("how many row ??");
+        // int row = sc.nextInt();
+        // System.out.println("how many colom ??");
+        // int colom = sc.nextInt();
+
+        // for (int i = 1 ; i <= row ; i++){
+
+        //     if(i == 1 || i == row){
+        //         for (int j = 1 ; j <= colom ; j++){
+        //             System.out.print("* ");
+        //         }
+        //         System.out.println();
+        //     }
+        //     else {
+        //         for (int j = 1 ; j <= colom ; j++){
+        //             if(j==1 || j == colom){
+        //                 System.out.print("* ");
+        //             }else{
+        //                 System.out.print("  ");
+        //             }
+        //         }
+        //         System.out.println();
+        //     }
+
+
+
+        }
 
 
 
