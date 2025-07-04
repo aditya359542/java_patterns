@@ -16,26 +16,25 @@ public class patterns {
 // * * * * *
 
 
-//         int number = sc.nextInt();
-//         for (int i = 1 ; i <= number; i++){
-// System.out.println("* * * * *");
-//         }
+        int number = sc.nextInt();
+        int time = sc.nextInt();
+        for (int i = 1 ; i <= number; i++){
+            for (int j=1 ; j<=time ; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+
+
+
+
 
 
 
 // Question2
 
 
-int number = sc.nextLine();
-
-for(int i = 1 ; i<= number; i++)
-
-
-
-
-
-
-// jj
 
 
 
