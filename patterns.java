@@ -66,6 +66,29 @@ public class patterns {
 
 
 
+
+// Question3
+
+//        *
+//        * *
+//        * * *
+//        * * * *
+//        * * * * *
+
+        // System.out.println("length ??");
+        // int number = sc.nextInt();
+
+        // for (int i = 1 ; i <= number ; i++){
+        //     for (int j = 1 ; j <=i ; j++){
+        //         System.out.print("* ");
+        //     }
+        //     System.out.println();
+        // }
+
+
+
+
+
         }
 
 
@@ -77,4 +100,3 @@ public class patterns {
 
     }
     
-}
