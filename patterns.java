@@ -170,7 +170,7 @@ public class patterns {
 //        }
 
 
-// Question 7
+// Question 8
 
 //        1
 //        2 3
