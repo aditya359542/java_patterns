@@ -182,6 +182,9 @@ public class patterns {
 
 
 
+// ok
+
+
 
 //        System.out.println("lenght ??");
 //        int length = sc.nextInt();
