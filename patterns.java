@@ -197,6 +197,30 @@ public class patterns {
 //            System.out.println();
 //        }
 
+// print name by function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 
