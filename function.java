@@ -3,37 +3,19 @@ import java.util.Scanner;
 public class function {
 
 
-    // static int sum(int a, int b){
-    //   return a*b;
-    // }
-
-    static int fact(int a){
-
-        int num = 1;
-        for (int i = num ; i >= 1; i--){
-            num = num * i;
-            System.out.println(num);
+    static int fact(int num){
+        int fact = 1;
+        for (int i = num ; i >= 1 ; i-- ){
+            fact = fact * i;
         }
-
-
-
-        
-        return num;
+        return fact;
     }
-
-
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+Scanner sc = new Scanner(System.in);
 
-        System.out.println("provide numbers");
-        int a = sc.nextInt();
-
-
-        System.out.println(fact(a));
-
-
+        System.out.println(fact(sc.nextInt()));
 
     }
     
