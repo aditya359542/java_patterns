@@ -6,27 +6,29 @@ public class array {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Array size");
+        int row = sc.nextInt();
+        int colom = sc.nextInt();
+
+      int [][] arr = new int[row][colom];
 
 
 
-        int[] arr = new int[sc.nextInt()];
+for(int i = 0 ; i < row ; i++ ){
+    for (int j = 0 ; j < colom; j++){
+        arr[i][j] = sc.nextInt();
+    }
+}
 
-        for (int i= 0 ; i < arr.length; i++){
-            arr[i] = sc.nextInt();
-        }
+for (int i = 0; i < row ; i++){
+    for (int j = 0 ; j< colom ; j++){
+        System.out.print(arr[i][j] + " ");
 
-        System.out.println("value you find");
+    }
+    System.out.println();
+}
 
-        int find = sc.nextInt();
 
-        for (int i= 0 ; i <  arr.length ; i++){
 
-        if (arr[i] == find){
-            System.out.println(i);
-        }
-
-        }
 
 
     }
