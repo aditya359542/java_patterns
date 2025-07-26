@@ -6,12 +6,16 @@ public class array {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("row");
+
         int row = sc.nextInt();
+        System.out.println("colom");
+
         int colom = sc.nextInt();
 
       int [][] arr = new int[row][colom];
 
-
+        System.out.println("enter value");
 
 for(int i = 0 ; i < row ; i++ ){
     for (int j = 0 ; j < colom; j++){
@@ -25,6 +29,16 @@ for (int i = 0; i < row ; i++){
 
     }
     System.out.println();
+}
+
+        System.out.println("what value index find");
+
+int find = sc.nextInt();
+
+for (int i = 0 ; i < row ; i++){
+    for (int j = 0 ; j< colom ; j++){
+        if (find == arr[i][j]) System.out.println(i + " , " + j);
+    }
 }
 
 
